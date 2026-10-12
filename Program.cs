@@ -101,5 +101,5 @@ Console.WriteLine("Hello, World from C# App! 100");
 Console.WriteLine("Hello, World from C# App! 101");
 Console.WriteLine("Hello, World from C# App! 102");
 Console.WriteLine("Hello, World from C# App! 103 zzzzzzzzzzzzzzzzzz");
-string Username = "Admin",  Password = "Admin9";
-Console.WriteLine($"User : {Username} and Password : {Password}");
+string Username = "Admin", Password = "Admin9";
+Console.WriteLine($" Username : {Username}  \n Password : {Password}");
