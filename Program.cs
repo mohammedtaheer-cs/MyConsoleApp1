@@ -1,6 +1,6 @@
-﻿Console.WriteLine("Hello, World from C# App! 001 ... 10");
-Console.WriteLine("Hello, World from C# App! 002 ... 11");
-Console.WriteLine("Hello, World from C# App! 003 ... 12");
+﻿Console.WriteLine("Hello, World from C# App! 001");
+Console.WriteLine("Hello, World from C# App! 002");
+Console.WriteLine("Hello, World from C# App! 003");
 Console.WriteLine("Hello, World from C# App! 004");
 Console.WriteLine("Hello, World from C# App! 005");
 Console.WriteLine("Hello, World from C# App! 006");
