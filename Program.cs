@@ -1,105 +1,38 @@
-﻿Console.WriteLine("Hello, World from C# App! 001");
-Console.WriteLine("Hello, World from C# App! 002");
-Console.WriteLine("Hello, World from C# App! 003");
-Console.WriteLine("Hello, World from C# App! 004");
-Console.WriteLine("Hello, World from C# App! 005");
-Console.WriteLine("Hello, World from C# App! 006");
-Console.WriteLine("Hello, World from C# App! 007");
-Console.WriteLine("Hello, World from C# App! 008");
-Console.WriteLine("Hello, World from C# App! 009");
-Console.WriteLine("Hello, World from C# App! 010");
-Console.WriteLine("Hello, World from C# App! 011");
-Console.WriteLine("Hello, World from C# App! 012");
-Console.WriteLine("Hello, World from C# App! 013");
-Console.WriteLine("Hello, World from C# App! 014");
-Console.WriteLine("Hello, World from C# App! 015 ...........");
-Console.WriteLine("Hello, World from C# App! 016");
-Console.WriteLine("Hello, World from C# App! 017");
-Console.WriteLine("Hello, World from C# App! 018");
-Console.WriteLine("Hello, World from C# App! 019");
-Console.WriteLine("Hello, World from C# App! 020");
-Console.WriteLine("Hello, World from C# App! 021");
-Console.WriteLine("Hello, World from C# App! 022");
-Console.WriteLine("Hello, World from C# App! 023");
-Console.WriteLine("Hello, World from C# App! 024");
-Console.WriteLine("Hello, World from C# App! 025");
-Console.WriteLine("Hello, World from C# App! 026");
-Console.WriteLine("Hello, World from C# App! 027");
-Console.WriteLine("Hello, World from C# App! 028");
-Console.WriteLine("Hello, World from C# App! 029");
-Console.WriteLine("Hello, World from C# App! 030");
-Console.WriteLine("Hello, World from C# App! 031");
-Console.WriteLine("Hello, World from C# App! 032");
-Console.WriteLine("Hello, World from C# App! 033");
-Console.WriteLine("Hello, World from C# App! 034");
-Console.WriteLine("Hello, World from C# App! 035");
-Console.WriteLine("Hello, World from C# App! 036");
-Console.WriteLine("Hello, World from C# App! 037");
-Console.WriteLine("Hello, World from C# App! 038");
-Console.WriteLine("Hello, World from C# App! 039");
-Console.WriteLine("Hello, World from C# App! 040");
-Console.WriteLine("Hello, World from C# App! 041");
-Console.WriteLine("Hello, World from C# App! 042");
-Console.WriteLine("Hello, World from C# App! 043");
-Console.WriteLine("Hello, World from C# App! 044");
-Console.WriteLine("Hello, World from C# App! 045");
-Console.WriteLine("Hello, World from C# App! 046");
-Console.WriteLine("Hello, World from C# App! 047");
-Console.WriteLine("Hello, World from C# App! 048");
-Console.WriteLine("Hello, World from C# App! 049");
-Console.WriteLine("Hello, World from C# App! 050");
-Console.WriteLine("Hello, World from C# App! 051");
-Console.WriteLine("Hello, World from C# App! 052");
-Console.WriteLine("Hello, World from C# App! 053");
-Console.WriteLine("Hello, World from C# App! 054");
-Console.WriteLine("Hello, World from C# App! 055");
-Console.WriteLine("Hello, World from C# App! 056");
-Console.WriteLine("Hello, World from C# App! 057");
-Console.WriteLine("Hello, World from C# App! 058");
-Console.WriteLine("Hello, World from C# App! 059");
-Console.WriteLine("Hello, World from C# App! 060");
-Console.WriteLine("Hello, World from C# App! 061");
-Console.WriteLine("Hello, World from C# App! 062");
-Console.WriteLine("Hello, World from C# App! 063");
-Console.WriteLine("Hello, World from C# App! 064");
-Console.WriteLine("Hello, World from C# App! 065");
-Console.WriteLine("Hello, World from C# App! 066");
-Console.WriteLine("Hello, World from C# App! 067");
-Console.WriteLine("Hello, World from C# App! 068");
-Console.WriteLine("Hello, World from C# App! 069");
-Console.WriteLine("Hello, World from C# App! 070");
-Console.WriteLine("Hello, World from C# App! 071");
-Console.WriteLine("Hello, World from C# App! 072");
-Console.WriteLine("Hello, World from C# App! 073");
-Console.WriteLine("Hello, World from C# App! 074");
-Console.WriteLine("Hello, World from C# App! 075");
-Console.WriteLine("Hello, World from C# App! 076 zzzzzzzzzzzzzzzzzzzzzz");
-Console.WriteLine("Hello, World from C# App! 077");
-Console.WriteLine("Hello, World from C# App! 078");
-Console.WriteLine("Hello, World from C# App! 079");
-Console.WriteLine("Hello, World from C# App! 080");
-Console.WriteLine("Hello, World from C# App! 081");
-Console.WriteLine("Hello, World from C# App! 082");
-Console.WriteLine("Hello, World from C# App! 083");
-Console.WriteLine("Hello, World from C# App! 084");
-Console.WriteLine("Hello, World from C# App! 085 ........ no touch this line");
-Console.WriteLine("Hello, World from C# App! 086");
-Console.WriteLine("Hello, World from C# App! 087");
-Console.WriteLine("Hello, World from C# App! 088");
-Console.WriteLine("Hello, World from C# App! 089");
-Console.WriteLine("Hello, World from C# App! 090");
-Console.WriteLine("Hello, World from C# App! 091 zzzzzzzzzzzzzzzzzzzzzzzz");
-Console.WriteLine("Hello, World from C# App! 092");
-Console.WriteLine("Hello, World from C# App! 093");
-Console.WriteLine("Hello, World from C# App! 094");
-Console.WriteLine("Hello, World from C# App! 095");
-Console.WriteLine("Hello, World from C# App! 096");
-Console.WriteLine("Hello, World from C# App! 097");
-Console.WriteLine("Hello, World from C# App! 098");
-Console.WriteLine("Hello, World from C# App! 099");
-Console.WriteLine("Hello, World from C# App! 100");
-Console.WriteLine("Hello, World from C# App! 101");
-Console.WriteLine("Hello, World from C# App! 102");
-Console.WriteLine("Hello, World from C# App! 103 zzzzzzzzzzzzzzzzzz");
-string Username = "Admin", Password = "Admin9";
-Console.WriteLine($" Username : {Username}  \n Password : {Password}");
+﻿
+using System;
+
+class Program
+{
+    static double CalculateAverage(int grade1, int grade2 , int grade3)
+    {
+        return ( grade1 + grade2 + grade3 ) / 3;
+    }
+    static void Main()
+    {
+        string studentName = "Ahmad";
+
+        int grade1 = 85;
+        int grade2 = 90;
+        int grade3 = 80;
+
+        double average = CalculateAverage(grade1 , grade2 , grade3);
+
+        Console.WriteLine("Student: " + studentName);
+        Console.WriteLine("Grade 1: " + grade1);
+        Console.WriteLine("Grade 2: " + grade2);
+        Console.WriteLine("Grade 3: " + grade3);
+        Console.WriteLine("Average: " + average);
+
+        Person person = new Person();
+        person.ID=1;
+        person.Name="Mohammed Nabeel Ali Taheer";
+        person.Age=28;
+        
+        Console.Write("------------------------------------------------------------------------------");
+        Console.WriteLine($"ID : {person.ID}");
+        Console.WriteLine($"Name:  {person.Name}");
+        Console.WriteLine("Sofware Engineer");
+        Console.WriteLine($"Age : {person.Age}");
+    }
+
+}
