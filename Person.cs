@@ -4,4 +4,5 @@ public class Person
     public string FarstName {get; set;}  = string.Empty;  
     public string LastName {get; set;}  = string.Empty;  
     public int Age {get; set;}
+     public DateOnly DateOfBirth {get; set;}
 }

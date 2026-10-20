@@ -16,7 +16,8 @@ class Program
         int grade3 = 80;
 
         double average = CalculateAverage(grade1 , grade2 , grade3);
-
+        Console.Write("------------------------------------------------------------------------------");
+        Console.WriteLine();
         Console.WriteLine("Student: " + studentName);
         Console.WriteLine("Grade 1: " + grade1);
         Console.WriteLine("Grade 2: " + grade2);
@@ -25,14 +26,19 @@ class Program
 
         Person person = new Person();
         person.ID=1;
-        person.Name="Mohammed Nabeel Ali Taheer";
+        person.FarstName="Mohammed Nabeel Ali ";
+        person.LastName="Taheer";
         person.Age=28;
+        person.DateOfBirth=new DateOnly(1998,4,6);
         
         Console.Write("------------------------------------------------------------------------------");
+        Console.WriteLine();
         Console.WriteLine($"ID : {person.ID}");
-        Console.WriteLine($"Name:  {person.Name}");
+        Console.WriteLine($"FullName:  {person.FarstName}{person.LastName}");
         Console.WriteLine("Sofware Engineer");
         Console.WriteLine($"Age : {person.Age}");
+        Console.WriteLine($"DateOfBirth : {person.DateOfBirth}");
+        Console.Write("------------------------------------------------------------------------------");
     }
 
 }
