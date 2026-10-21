@@ -30,7 +30,8 @@ class Program
         person.LastName="Taheer";
         person.Age=28;
         person.DateOfBirth=new DateOnly(1998,4,6);
-        
+        person.Nationality="South Arabice";
+
         Console.Write("------------------------------------------------------------------------------");
         Console.WriteLine();
         Console.WriteLine($"ID : {person.ID}");
@@ -38,6 +39,7 @@ class Program
         Console.WriteLine("Sofware Engineer");
         Console.WriteLine($"Age : {person.Age}");
         Console.WriteLine($"DateOfBirth : {person.DateOfBirth}");
+        Console.WriteLine($"Nationality : {person.Nationality}");
         Console.Write("------------------------------------------------------------------------------");
     }
 
