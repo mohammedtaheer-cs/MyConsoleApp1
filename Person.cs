@@ -5,4 +5,5 @@ public class Person
     public string LastName {get; set;}  = string.Empty;  
     public int Age {get; set;}
      public DateOnly DateOfBirth {get; set;}
+     public string PlaceOfBirth {get; set;}  = string.Empty;  
 }
