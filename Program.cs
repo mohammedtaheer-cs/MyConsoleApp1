@@ -31,6 +31,7 @@ class Program
         person.Age=28;
         person.DateOfBirth=new DateOnly(1998,4,6);
         person.Nationality="South Arabice";
+        person.PlaceOfBirth="Yemen - Ad Dalli";
 
         Console.Write("------------------------------------------------------------------------------");
         Console.WriteLine();
@@ -40,6 +41,7 @@ class Program
         Console.WriteLine($"Age : {person.Age}");
         Console.WriteLine($"DateOfBirth : {person.DateOfBirth}");
         Console.WriteLine($"Nationality : {person.Nationality}");
+        Console.WriteLine($"PlaceOfBirth : {person.PlaceOfBirth}");
         Console.Write("------------------------------------------------------------------------------");
     }
 
